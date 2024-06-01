@@ -1,9 +1,9 @@
-import React from 'react'
-import { BsFillBagCheckFill } from 'react-icons/bs'
-import { AiFillStar } from 'react-icons/ai'
 import popularsales from './datas.js/PopularData';
 import { useDispatch } from 'react-redux';
 import { setAddItemCart } from './app/CartSlice';
+
+import { AiFillStar } from 'react-icons/ai'
+import { BsFillBagCheckFill } from 'react-icons/bs'
 
 const Sales = () => {
     const dispatch = useDispatch();
@@ -18,7 +18,6 @@ const Sales = () => {
                 {popularsales.map((item) => {
                     const { id, title, text, rating, price, btn, img, color, shadow } = item;
                     return (
-                        <>
                             <div key={id} className={`relative bg-gradient-to-b transition-all duration-700 ease-in-out hover:scale-105 ${color} ${shadow}text-white lg:w-[32%] rounded-2xl md:w-full sm:w-full lg:my-0 md:my-3 sm:my-3`}>
                                 <div className='flex items-center'>
                                     <div className='pl-6 py-4'>
@@ -38,7 +37,6 @@ const Sales = () => {
                                     <img className='lg:w-[180px] lg:h-[180px] absolute lg:-bottom-3 lg:-right-3 xl:-right-0 xl:w-[200px] xl:h-[200px] xl:-bottom-5 sm:right-0 md:right-0 transitions-theme -rotate-[25deg] hover:rotate-0 cursor-pointer md:w-[230px] md:h-[230px] md:-bottom-6' src={img} alt="" />
                                 </div>
                             </div>
-                        </>
                     )
                 })}
             </div>
