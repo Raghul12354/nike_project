@@ -35,7 +35,7 @@ const Nav = () => {
             !navState ? 'absolute left-0 right-0 opacity-100 z-50' : 'fixed top-0 left-0 right-0 h-[11vh] flex items-center justify-center opacity-100 z-[200] blur-effect-theme'
         }>
             <div className='w-full flex justify-between items-center px-8'>
-                <img className={`w-[100px] h-[100px] ${navState && "filter brightness-0"}`} z-10 src="https://i.ibb.co/6mLS3g1/nike-logo-115309645398lsn6qzriq-removebg-preview.png" alt="" />
+                <img className={`w-[100px] h-[100px] ${navState && "filter brightness-0"}`} src="https://i.ibb.co/6mLS3g1/nike-logo-115309645398lsn6qzriq-removebg-preview.png" alt="" />
                 <div className='flex'>
                     <AiOutlineSearch className={`${navState && "text-slate-900 transition-all duration-300"} mx-1 text-3xl text-white`} />
                     <AiOutlineHeart className={`${navState && "text-slate-900 transition-all duration-300"} mx-1 text-3xl text-white`} />
