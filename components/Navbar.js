@@ -53,7 +53,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 {/* End of Video side */}
-                <img className='md:left-7 md:bottom-8 w-[35%] h-[35%] relative z-10 opacity-100 nike-container mx-auto mt-[20%] transitions-theme -rotate-[25deg] hover:rotate-0 cursor-pointer object-fill' src="https://i.postimg.cc/90NsZdgH/hero-Copy-removebg-preview-1.png" alt="" />
+                <img className='md:left-7 md:bottom-8 w-[35%] h-[35%] relative z-10 opacity-100 nike-container mx-auto mt-[20%] transitions-theme -rotate-[25deg] hover:rotate-0 cursor-pointer object-fill' src="\hero.png" alt="" />
                 {/* Icons */}
                 <div className='flex flex-col items-center lg:pt-[14%] mr-8 md:-mr-4 md:pt-20 sm:pt-24 sm:-mr-1'>
                     <button className='lg:text-3xl py-2 text-white md:text-2xl  sm:text-xl'>
